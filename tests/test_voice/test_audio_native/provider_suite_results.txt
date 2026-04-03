@@ -1,15 +1,4 @@
-Provider Suite — 2026-04-02 21:07 
-
-[deepgram]
-  ⏭️ SKIP  test_connect_disconnect
-  ⏭️ SKIP  test_reconnect_after_disconnect
-  ⏭️ SKIP  test_single_turn_reply[medium-1120ms]
-  ⏭️ SKIP  test_single_turn_reply[short-720ms]
-  ⏭️ SKIP  test_multi_turn_reply
-  ⏭️ SKIP  test_tool_call_round_trip
-  ⏭️ SKIP  test_barge_in[medium-1120ms]
-  ⏭️ SKIP  test_barge_in[short-720ms]
-  ⏭️ SKIP  test_tick_duration_bounds
+Provider Suite — 2026-04-02 22:30 
 
 [gemini]
   ✅ PASS  test_connect_disconnect
@@ -83,6 +72,6 @@ Failure details:
 assert False
   test_barge_in[short-720ms]: AssertionError: Agent never started speaking for hello.ulaw
 assert False
- +  where False = any(<generator object TestBargeIn.test_barge_in.<locals>.<genexpr> at 0x125788a00>)
+ +  where False = any(<generator object TestBargeIn.test_barge_in.<locals>.<genexpr> at 0x1255bf370>)
 
-42 passed, 3 failed, 18 skipped, 0 errors in 80s
+42 passed, 3 failed, 9 skipped, 0 errors in 79s
