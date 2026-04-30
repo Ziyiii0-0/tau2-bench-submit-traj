@@ -2,18 +2,20 @@
   "model_name": "Trajectory2Task-30B-A3B",
   "model_organization": "Northeastern University",
   "submitting_organization": "Northeastern University",
-  "submission_date": "2026-04-20",
+  "submission_date": "2026-04-30",
   "submission_type": "custom",
   "modality": "text",
   "contact_info": {
-    "email": "wang.ziyi19@northeastern.edu"
+    "email": "wang.ziyi19@northeastern.edu",
+    "name": "Ziyi Wang",
+    "github": "Ziyiii0-0"
   },
   "results": {
     "retail": {
-      "pass_1": 79.16666666666666,
-      "pass_2": 66.37426900584794,
-      "pass_3": 57.23684210526315,
-      "pass_4": 50.0,
+      "pass_1": 82.45614035087719,
+      "pass_2": 72.95321637426902,
+      "pass_3": 66.22807017543859,
+      "pass_4": 61.40350877192983,
       "cost": 0.0
     }
   },
@@ -23,7 +25,7 @@
     "retail": "results.json"
   },
   "methodology": {
-    "evaluation_date": "2026-04-20",
+    "evaluation_date": "2026-04-30",
     "user_simulator": "claude-sonnet-4-5-20250929",
     "notes": "Trajectory2Task-30B-A3B is Qwen3-30B-A3B-Thinking-2507 fine-tuned on synthetic retail-domain data. Training data was collected on a fully synthetic retail database whose entities (users, products, orders) are disjoint from the tau-bench evaluation database.",
     "verification": {
